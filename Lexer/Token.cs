@@ -1,6 +1,6 @@
 ﻿namespace MiniLang.Lexer;
 
-public class Token
+public sealed class Token
 {
     public TokenType Type { get; }
     public string Lexeme { get; }

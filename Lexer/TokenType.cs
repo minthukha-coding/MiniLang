@@ -18,8 +18,8 @@ public enum TokenType
     Identifier, String, Number,
 
     // Keywords
-    Let, Fun, If, Else, True, False,
-    While, Return, Print,
+    Let, If, Else, True, False,
+    While, Print,
 
     EOF
 }
